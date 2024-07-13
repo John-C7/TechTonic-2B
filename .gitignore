@@ -131,3 +131,5 @@ dist
 venv
 static
 frontend
+uploads
+memory-forensics-frontend
