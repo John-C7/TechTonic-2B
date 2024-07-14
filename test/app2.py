@@ -14,8 +14,9 @@ analyses = {}
 def run_volatility_commands(memory_dump_path, plugins):
     volatility_path = r'C:\Users\JOHN CHARLES\Desktop\TechTonic Web\TechTonic-2B\backend\volatility3\vol.py'  # Path to your Volatility executable
     results = {}
+    plugins=['windows.pslist.PsList',]
     for plugin in plugins:
-        command = ['python', volatility_path, '-f', memory_dump_path, plugin]  # Ensure you're calling the correct Python interpreter
+        command = ['python', volatility_path, '-f', memory_dump_path, plugin] 
         try:
             output = subprocess.check_output(command, stderr=subprocess.STDOUT)
             result = output.decode('utf-8')
