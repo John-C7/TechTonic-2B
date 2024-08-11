@@ -1,0 +1,115 @@
+{
+  "engine_detected": {
+    "APEX": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "AVG": {
+      "category": "malicious",
+      "result": "Win32:KeyLogger-AFC [PUP]"
+    },
+    "Alibaba": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "Avast": {
+      "category": "malicious",
+      "result": "Win32:KeyLogger-AFC [PUP]"
+    },
+    "Avast-Mobile": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "BitDefenderFalx": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "Cylance": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "Cynet": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "DeepInstinct": {
+      "category": "failure",
+      "result": null
+    },
+    "Elastic": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "Paloalto": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "SymantecMobileInsight": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "Trapmine": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "Trustlook": {
+      "category": "type-unsupported",
+      "result": null
+    },
+    "Webroot": {
+      "category": "failure",
+      "result": null
+    }
+  },
+  "hash": {
+    "sha1": "bd096551f28cbbceb1dc5d64e733a3f4822864b8",
+    "sha254": "91df773dd3316d447661085715344e3aa58b136815698e2cc03dbffc777a9e1b"
+  },
+  "name": "pat-2009-12-05.winddramimage",
+  "size": 535236608,
+  "stats": {
+    "confirmed-timeout": 0,
+    "failure": 2,
+    "harmless": 0,
+    "malicious": 2,
+    "suspicious": 0,
+    "timeout": 0,
+    "type-unsupported": 11,
+    "undetected": 63
+  },
+  "votes": {
+    "harmless": 0,
+    "malicious": 0
+  }
+}
+
+{
+  "candidates": [
+    {
+      "finishReason": "SAFETY",
+      "index": 0,
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "MEDIUM"
+        }
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 234,
+    "totalTokenCount": 234
+  }
+}
